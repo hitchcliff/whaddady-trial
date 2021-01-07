@@ -1,1 +1,14 @@
-@import "~bootstrap/scss/bootstrap";
+// vendor
+@import "./styles/bootstrap.scss";
+
+//fonts
+@import "./styles/custom-fonts.css";
+
+// partials
+@import "./styles/hero-section.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

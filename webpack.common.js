@@ -24,6 +24,16 @@ module.exports = merge(HomePartials, {
         },
       },
       {
+        test: /\.(woff|woff2|otf|ttf)$/,
+        exclude: /node_modules/,
+        loader: "url-loader",
+        options: {
+          name: "[name].[contenthash].[ext]",
+          outputPath: "assets/fonts",
+          publicPath: "assets/fonts",
+        },
+      },
+      {
         test: /\.js?$/,
         exclude: /node_modules/,
         use: {

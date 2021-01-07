@@ -1,0 +1,26 @@
+.hero {
+  &__logo {
+    font-family: "Myriad Semibold", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.9rem;
+    color: white;
+
+    .logo--i {
+      display: inline-block;
+
+      svg {
+        top: -15px;
+        left: -14px;
+        font-weight: normal;
+        padding: 2px;
+      }
+    }
+  }
+  .list-items {
+    gap: 25px;
+    list-style-type: none;
+    .social-link {
+      color: white;
+    }
+  }
+}
