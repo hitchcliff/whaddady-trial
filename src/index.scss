@@ -6,3 +6,9 @@
 
 // partials
 @import "./styles/hero-section.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
