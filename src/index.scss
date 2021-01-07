@@ -1,1 +1,8 @@
-@import "~bootstrap/scss/bootstrap";
+// vendor
+@import "./styles/bootstrap.scss";
+
+//fonts
+@import "./styles/custom-fonts.scss";
+
+// partials
+@import "./styles/hero-section.scss";

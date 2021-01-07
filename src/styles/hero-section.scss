@@ -1,0 +1,11 @@
+.hero {
+  &__title {
+    font-family: "Myriad Semibold", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.8rem;
+  }
+  .list-items {
+    gap: 10px;
+    list-style-type: none;
+  }
+}

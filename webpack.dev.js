@@ -20,7 +20,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/views/Home/index.html",
+      template: "./src/views/index.html",
     }),
     new MiniCssExtractPlugin({ filename: "[name].[contenthash].css" }),
   ],
