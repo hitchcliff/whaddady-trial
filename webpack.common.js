@@ -1,9 +1,11 @@
-module.exports = {
+const HomePartials = require("./webpack/Home");
+const { default: merge } = require("webpack-merge");
+
+module.exports = merge(HomePartials, {
   entry: {
     main: "./src/index.js",
     vendor: "./src/vendor.js",
   },
-  plugins: [],
   module: {
     rules: [
       {
@@ -34,4 +36,4 @@ module.exports = {
       },
     ],
   },
-};
+});

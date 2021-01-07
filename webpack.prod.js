@@ -28,9 +28,8 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: "./src/views/Home/index.html",
       minify: {
         removeAttributeQuotes: true,
         collapseWhitespace: true,
@@ -41,5 +40,6 @@ module.exports = merge(common, {
     new PurgeCSSPlugin({
       paths: glob.sync(path.join(__dirname, "src/**/*.html"), { nodir: true }),
     }),
+    new CleanWebpackPlugin(),
   ],
 });
