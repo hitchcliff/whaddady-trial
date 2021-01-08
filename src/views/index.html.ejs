@@ -16,7 +16,10 @@
     <%=require('./home-partials/hero-section.html') %>
 
     <!-- HIGHLIGHTS SECTION -->
-    <div class="container d-flex flex-row justify-content-center py-5" style="gap: 70px">
+    <div
+      class="container d-flex flex-lg-row flex-column justify-content-center py-5"
+      style="gap: 70px"
+    >
       <%=require('./home-partials/video-section.html') %>
       <%=require('./home-partials/music-section.html') %>
     </div>
@@ -32,5 +35,8 @@
 
     <!-- SIGNUP SECTION -->
     <%=require('./home-partials/signup-section.html') %>
+
+    <!-- FOOTER SECTION -->
+    <%=require("./partials/footer.html") %>
   </body>
 </html>

@@ -17,3 +17,20 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    height: 140vh;
+  }
+}

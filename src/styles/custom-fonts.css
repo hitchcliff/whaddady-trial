@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "Myriad Regular";
+  src: url("../assets/fonts/myriad-pro/regular.woff") format("woff");
+}
+
+@font-face {
   font-family: "Myriad Semibold";
   src: url("../assets/fonts/myriad-pro/semibold.woff") format("woff");
 }
