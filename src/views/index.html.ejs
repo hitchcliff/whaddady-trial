@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Phoinix Keyz</title>
   </head>
-  <body class="container-fluid p-0" style="background: #000000">
+  <body class="container-fluid d-flex flex-column p-0" style="background: #000000">
+    <!-- HERO SECTION -->
     <%=require('./home-partials/hero-section.html') %>
-    <div class="d-flex flex-row justify-content-center pb-5" style="gap: 70px">
+
+    <!-- HIGHLIGHTS SECTION -->
+    <div class="container d-flex flex-row justify-content-center pb-5" style="gap: 70px">
       <%=require('./home-partials/video-section.html') %>
       <%=require('./home-partials/music-section.html') %>
     </div>
+
+    <!-- TOUR SECTION -->
+    <%=require('./home-partials/tour-section.html') %>
   </body>
 </html>
