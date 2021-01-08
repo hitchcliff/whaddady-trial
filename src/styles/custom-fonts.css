@@ -12,3 +12,13 @@
   font-family: "Moonshiner Regular";
   src: url("../assets/fonts/moonshiner/regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Moonshiner RegularLines";
+  src: url("../assets/fonts/moonshiner/regularlines.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FjallaOne Regular";
+  src: url("../assets/fonts/fjalla-one/regular.woff") format("woff");
+}
