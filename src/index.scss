@@ -1,8 +1,15 @@
-// vendor
+// vendors
 @import "./styles/bootstrap.scss";
+
+// globals
+@import "./styles/globals.scss";
 
 //fonts
 @import "./styles/custom-fonts.css";
+
+// headings
+@import "./styles/heading-2.scss";
+@import "./styles/heading-4.scss";
 
 // partials
 @import "./styles/hero-section.scss";

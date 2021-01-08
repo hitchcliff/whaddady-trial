@@ -2,3 +2,13 @@
   font-family: "Myriad Semibold";
   src: url("../assets/fonts/myriad-pro/semibold.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Myriad Condensed";
+  src: url("../assets/fonts/myriad-pro/condensed.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Moonshiner Regular";
+  src: url("../assets/fonts/moonshiner/regular.woff") format("woff");
+}

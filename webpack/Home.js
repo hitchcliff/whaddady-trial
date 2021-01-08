@@ -8,5 +8,15 @@ module.exports = {
       location: "HeroSection",
       template_filename: ["index.html"],
     }),
+    new HtmlWebpackPartialPlugin({
+      path: path.resolve(__dirname, "../src/views/home-partials/video-section.html"),
+      location: "VideoSection",
+      template_filename: ["index.html"],
+    }),
+    new HtmlWebpackPartialPlugin({
+      path: path.resolve(__dirname, "../src/views/home-partials/music-section.html"),
+      location: "MusicSection",
+      template_filename: ["index.html"],
+    }),
   ],
 };

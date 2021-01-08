@@ -1,0 +1,25 @@
+.heading-2-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  .heading-2 {
+    font-family: "Moonshiner Regular";
+    font-size: 3rem;
+    color: $primary;
+    letter-spacing: 0.5rem;
+  }
+
+  .heading-2-shadow {
+    font-family: "Moonshiner Regular";
+    font-size: 5rem;
+    letter-spacing: 0.6rem;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $primary;
+    opacity: 0.2;
+    z-index: -1;
+  }
+}
