@@ -12,6 +12,17 @@
 - CSS Optimization/Tree shaking
 - Assets Optimization
 
+## How to push
+
+- `git checkout -b feature/name`
+- `git checkout main`
+- `git pull`
+- `git checkout feature/name`
+- `git add .`
+- `git commmit -m "commit"`
+- `git push`
+- Resolve all conflicts
+
 ### This is an awesome project built for Practical Exercise.
 
 - Assigned by 700brands.com
