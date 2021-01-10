@@ -1,6 +1,13 @@
 <div
   id="hero"
-  class="hero position-relative d-flex flex-column justify-content-center align-items-center w-100 overflow-hidden"
+  class="hero position-relative d-flex flex-column justify-content-center align-items-center w-100"
+  style="
+    background-image: url('../src/assets/images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+  "
 >
   <div
     id="hero-image"
@@ -12,19 +19,6 @@
       style="object-fit: cover"
       loading="lazy"
       src="../../../src/assets/images/model-fire.png"
-      alt="fire background"
-    />
-  </div>
-  <div
-    id="bg-image"
-    class="position-absolute top-0 left-0 w-100 h-100 z-0 object-cover"
-    style="z-index: 1"
-  >
-    <img
-      style="object-fit: cover"
-      class="w-100"
-      loading="lazy"
-      src="../../../src/assets/images/bg.jpg"
       alt="fire background"
     />
   </div>
@@ -121,5 +115,5 @@
     </ul>
   </div>
 
-  <!-- <div class="blur text-light d-block d-lg-none">I'm a blur</div> -->
+  <div class="blur text-light d-block">I'm a blur</div>
 </div>

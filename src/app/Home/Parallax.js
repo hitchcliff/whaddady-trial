@@ -13,59 +13,38 @@ export default function HomeParallax() {
   const logo = $("#hero-logo");
   const social = $("#hero-social");
 
-  tl.to(
-    bg,
-    3,
-    {
-      y: -600,
-    },
-    "-=.5",
-  )
-    .to(
-      logo,
-      3,
-      {
-        y: -0,
-      },
-      "=-3",
-    )
-    .to(
-      social,
-      3,
-      {
-        y: -0,
-        opacity: 1,
-      },
-      "=-3",
-    );
-  // .to(
-  //   hero,
-  //   3,
-  //   {
-  //     top: "100px",
-  //   },
-  //   "-=3",
-  // );
+  tl.to(social, 0.2, {
+    y: 0,
+    opacity: 1,
+  });
 
   new ScrollMagic.Scene({
     triggerElement: "#main-body",
-    duration: "100%",
+    duration: 50,
     triggerHook: "onLeave",
   })
-    .setPin("#main-body")
     .setTween(tl)
+    .setPin("#main-body")
     .addTo(controller);
 
   tl2
-    .from(bg, 1, {
-      y: -100,
-      scale: 1.5,
+    .from(heroImage, 1, {
+      y: 250,
     })
     .from(
       hero,
       1,
       {
-        y: 150,
+        scale: 1.5,
+      },
+      "-=1",
+    )
+    .from(
+      heroLogo,
+      1,
+      {
+        y: -20,
+        opacity: 0,
       },
       "-=1",
     );
