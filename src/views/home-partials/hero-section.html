@@ -3,15 +3,27 @@
 >
   <div
     id="hero-image"
-    class="position-absolute top-0 left-0 z-0 w-100 h-100 object-cover"
+    class="position-absolute bottom-0 top-0 h-100 overflow-hidden"
+    style="z-index: 4"
+  >
+    <img
+      style="object-fit: cover"
+      loading="lazy"
+      src="../../../src/assets/images/model-fire.png"
+      alt="fire background"
+    />
+  </div>
+  <div
+    id="bg-image"
+    class="position-absolute top-0 left-0 w-100 h-100 z-0 object-cover"
     style="z-index: 1"
   >
     <img
       style="object-fit: cover"
       class="w-100"
       loading="lazy"
-      src="../../../src/assets/images/hero.jpg"
-      alt="Guy with a guitar"
+      src="../../../src/assets/images/bg.jpg"
+      alt="fire background"
     />
   </div>
   <div style="z-index: 10">
@@ -107,5 +119,5 @@
     </ul>
   </div>
 
-  <div class="blur text-light d-block d-lg-none">I'm a blur</div>
+  <!-- <div class="blur text-light d-block d-lg-none">I'm a blur</div> -->
 </div>
