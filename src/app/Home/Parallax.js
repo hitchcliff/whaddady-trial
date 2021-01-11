@@ -13,11 +13,6 @@ export default function HomeParallax() {
   const logo = $("#hero-logo");
   const social = $("#hero-social");
 
-  tl.to(social, 0.2, {
-    y: 0,
-    opacity: 1,
-  });
-
   new ScrollMagic.Scene({
     triggerElement: "#main-body",
     duration: 50,
@@ -44,6 +39,15 @@ export default function HomeParallax() {
       1,
       {
         y: -20,
+        opacity: 0,
+      },
+      "-=1",
+    )
+    .from(
+      social,
+      0.2,
+      {
+        y: 30,
         opacity: 0,
       },
       "-=1",
