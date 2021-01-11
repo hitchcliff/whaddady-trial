@@ -9,9 +9,8 @@ export default function HomeParallax() {
   let tl2 = new TimelineLite();
   const hero = $("#hero");
   const heroImage = $("#hero-image");
-  const bg = $("#bg-image");
   const logo = $("#hero-logo");
-  const social = $("#hero-social");
+  const social = $(".socials");
 
   new ScrollMagic.Scene({
     triggerElement: "#main-body",

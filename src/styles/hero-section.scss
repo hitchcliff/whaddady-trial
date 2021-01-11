@@ -18,6 +18,10 @@
       }
     }
   }
+
+  .social-icon {
+    height: auto;
+  }
 }
 
 .blur {
@@ -50,7 +54,7 @@
   }
 }
 
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
   #hero-logo {
     margin-top: 100px;
   }
