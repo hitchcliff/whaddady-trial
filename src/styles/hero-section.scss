@@ -5,6 +5,7 @@
     font-size: 1.4rem;
     letter-spacing: 0.9rem;
     color: white;
+    margin-top: 0px;
 
     .logo--i {
       display: inline-block;
@@ -31,26 +32,8 @@
   z-index: 999;
 }
 
-// @media screen and (min-width: 300px) {
-//   .hero {
-//     height: 40vh;
-//   }
-// }
-
-// @media screen and (min-width: 768px) {
-//   .hero {
-//     height: 50vh;
-//   }
-// }
-
-@media screen and (min-width: 1280px) {
-  .hero {
-    height: 100vh;
-  }
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1400px) {
   #hero-logo {
-    margin-top: 0px;
+    margin-top: 70px;
   }
 }
